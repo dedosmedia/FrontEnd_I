@@ -1,0 +1,12 @@
+.header-background{
+    background-image: url('../img/lemon-pie2.jpg');
+    height: 343px;
+    color: white;
+    background-size: cover;
+    background-position: center center;
+}
+
+body{
+
+    font-family: 'Montserrat', sans-serif;
+}

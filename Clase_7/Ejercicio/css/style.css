@@ -1,114 +1,155 @@
 
 
 aside {
-  font-size: 24px;  
-  color: #000000;
-  background-color: #1cd1b0;
-  padding: 3px 30px;
+    font-size: 24px;  
+    color: #000000;
+    background-color: #1cd1b0;
+    padding: 3px 30px;
+  
+  }
+  
+  main{
+      padding-top: 50px;
+  }
+  
+  header {
+  
+      position: sticky;
+      top: 0px;
+  }
+  
+  
+  .titulo-principal {
+    background-color: #00669f;
+    color: white;
+    font-size: 38px;
+    margin: 0px;
+    padding: 30px 30px;
+  }
+  
+  .parrafo {
+  
+      padding-left:30px;
+      padding-right:30px;
+  
+  }
+  
+  .subtitulo-article {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .boton-ver-mas {
+    text-align: center;
+    width: 115px;
+    background-color: #00669F;
+    margin: auto;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .footer {
+      text-align: center;
+      background-color: #00669f;
+      color: white;
+      padding: 20px;
+  }
+  
+  .superheroe-card {
+    width: 402px;
+     background-color: #F3F3F3;
+    text-align: left;
+    margin: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px 30px 0px 0px;
+    margin-top: 70px;
+  }
+  
+  .card-image {
+    width: 402px;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    border-radius: 30px 30px 0px 0px;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+        margin: 0px;
+    scroll-padding-top: 50px;
+  }
+  
+  .fa-heart {
+    color: red;
+    font-size: 36px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  
+  .hero1 {
+    width: 128px;
+    height: 128px;
+    background-image: url("../img/batman.jpg");
+  
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    top: 130px;
+  }
+  
+  .hero2 {
+    width: 128px;
+    height: 128px;
+    background-image: url("../img/wonderw.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    top: 130px;
+  }
+  .hero3 {
+    width: 128px;
+    height: 128px;
+    background-image: url("../img/superman.jpg");
+  
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 130px;
+    top: 130px;
+  }
+  .superhero-details{
+      margin-top: 83px;
+      padding-bottom: 40px;
+  }
+  
+  .fa-plus-circle{
+      position: fixed;
+      right: 100px;
+      bottom: 100px;
+      font-size: 60px;
+      color: #00669F;
+  
+  
+  } 
 
-}
-
-main{
-    padding-top: 50px;
-}
-
-header {
-
-    position: sticky;
-    top: 0px;
-}
-
-
-.titulo-principal {
-  background-color: #00669f;
-  color: white;
-  font-size: 38px;
-  margin: 0px;
-  padding: 30px 30px;
-}
-
-.parrafo {
-
-    padding-left:30px;
-    padding-right:30px;
-
-}
-
-.subtitulo-article {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.boton-ver-mas {
-  text-align: center;
-  width: 115px;
-  background-color: #00669F;
-  margin: auto;
-  color: white;
-  border-radius: 5px;
-  padding: 20px;
-}
-
-.footer {
-}
-
-.superheroe-card {
-  width: 402px;
-   background-color: #F3F3F3;
-  text-align: left;
-  margin: auto;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 30px 30px 0px 0px;
-}
-
-.card-image {
-  width: 402px;
-  height: 200px;
-  background-image: url("../img/bg-batman.jpg");
-  background-size: cover;
-  position: relative;
-  border-radius: 30px 30px 0px 0px;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  margin: 0px;
-  scroll-padding-top: 50px;
-}
-
-.fa-heart {
-  color: red;
-  font-size: 36px;
-  position: absolute;
-  top: 15px;
-  left: 15px;
-}
-
-.hero {
-  width: 128px;
-  height: 128px;
-  background-image: url("../img/batman.jpg");
-
-  background-size: cover;
-  background-position: center;
-  border-radius: 50%;
-  position: absolute;
-  left: 130px;
-  top: 130px;
-}
-
-
-.superhero-details{
-    margin-top: 83px;
-    padding-bottom: 40px;
-}
-
-.fa-plus-circle{
-    position: fixed;
-    right: 100px;
-    bottom: 100px;
-    font-size: 60px;
-    color: #00669F;
-
+  .background2 {
+    background-image: url("../img/bg-wonderw.jpg");
     
-}
+  }
+
+  .background1 {
+    background-image: url("../img/bg-batman.jpg");
+
+  }
+
+  .background3 {
+    background-image: url("../img/bg-superman.jpg");
+
+  }

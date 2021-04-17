@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --dark-background-color: #00669f;
+  --light-background-color: #1cd1b0;
+    --grey-background-color: #888888;
+
+
+  --dark-text-color: black;
+  --leight-text-color: white;
+  --small-font-size: 15px;
+  --medium-font-size: 30px;
+  --large-font-size: 40px;
+  --extra-large-font-size: 72px;
+}
+
+body {
+  font-family: var(--main-font-family);
+}
+
+div.form {
+  margin: 150px auto 150px;
+  width: 450px;
+}
+
+.form-title {
+  font-size: var(--large-font-size);
+  font-weight: 700;
+}
+
+form {
+  margin: 50px auto;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 1; /* Firefox */
+}
+
+input,
+select {
+  width: 100%;
+  margin: 10px auto;
+  border: 2px solid black;
+  text-indent: 15px;
+  font-size: 20px;
+  padding: 15px;
+}
+
+/***********************************
+**
+    FORMULARIO
+**
+************************************/
+
+.button {
+  width: 100%;
+  border: 0px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.login {
+    background-color: var(--light-background-color);
+}
+
+.reset {
+    background-color: var(--grey-background-color);
+    color: var(--leight-text-color)
+}
+
+p.next {
+  text-align: center;
+}

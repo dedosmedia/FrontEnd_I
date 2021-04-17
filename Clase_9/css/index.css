@@ -1,0 +1,62 @@
+/*
+  PROFES:
+  1. No me gustó centrar veticalmente ese h1 (selector "header h1"), con position absolute.
+  ¿Con las herramientas que conocemos actualmente, había otra manera mejor de hacerlo?
+
+
+  2. En el button submit, no sé porq al presionarlo me sale un borde negro.
+*/
+
+
+
+@import url("./common.css");
+
+/***********************************
+**
+    ASIDE 
+**
+************************************/
+aside {
+  background-color: var(--light-background-color);
+}
+aside p {
+  font-size: var(--small-font-size);
+  font-weight: 400;
+  padding: 2px 20px;
+}
+
+/***********************************
+**
+    HEADER
+**
+************************************/
+header {
+  background-color: var(--dark-background-color);
+  position: relative;
+}
+
+
+header h1 {
+  position: absolute;
+  top: 20px;
+  color: var(--leight-text-color);
+  font-size: var(--medium-font-size);
+  font-weight: 400;
+  margin-left: 120px;
+}
+
+/***********************************
+**
+    FOOTER
+**
+************************************/
+footer {
+  background-color: var(--dark-background-color);
+}
+footer p {
+  color: var(--leight-text-color);
+  font-size: var(--small-font-size);
+  text-align: center;
+  padding: 21px 0;
+}
+

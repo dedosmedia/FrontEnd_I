@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formularios</title>
 
-
-    <link rel="stylesheet" href="css/style.css">    
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
     <aside>
-            <p>20% de descuento en todos los productos!</p>
+      <p>20% de descuento en todos los productos!</p>
     </aside>
 
     <header>
-        <img src="images/logo.svg" alt="Logo de nuestra tienda">        
-        <div class="store-name">
-            <h1>Tienda de la esquina</h1>
-        </div>
-        
+      <img src="images/logo.svg" alt="Logo de nuestra tienda" />
+      <h1>Tienda de la esquina</h1>
     </header>
 
     <main>
-            <div class="login">
-                <p class="login-title">
-                    Login
-                </p>
-                <div class="login-form">
-                    <form action="" method="get">                        
-                        <input type="text" name="user" class="inline-block" placeholder="Usuario">
-                        <input type="text" name="password" class="inline-block"  placeholder="Contraseña">
-                        <input type="submit" class="submit" value="Entrar">
-                    </form>
-                    <p class="register"><a href="#">¿No tienes una cuenta?</a> Registrarme</p>
-                </div>
-            </div>
-            
+      <div class="form">
+        <p class="form-title">Login</p>
+        <form action="" method="get">
+          <input
+            type="text"
+            name="user"
+            class="inline-block"
+            placeholder="Usuario"
+          />
+          <input
+            type="password"
+            name="password"
+            class="inline-block"
+            placeholder="Contraseña"
+          />
+          <button type="submit" class="button login">Entrar</button>
+          <p class="next">
+            <a href="register.html">¿No tienes una cuenta?</a> Registrarme
+          </p>
+        </form>
+        
+      </div>
     </main>
 
     <footer>
-        <p class="disclaimer">Todos los derechos reservados a FRONT END 1</p>
+      <p>Todos los derechos reservados a FRONT END 1</p>
     </footer>
-    
-</body>
+  </body>
 </html>

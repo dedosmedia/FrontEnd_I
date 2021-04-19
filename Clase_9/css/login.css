@@ -8,17 +8,5 @@
 */
 
 
-
 @import url("./common.css");
 
-
-/***********************************
-**
-    FORMULARIO
-**
-************************************/
-
-.form-button * {
-  display: inline;
-  width: 49%;
-}

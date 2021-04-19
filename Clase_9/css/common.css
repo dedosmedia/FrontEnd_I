@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0px;
 }
+
 :root {
   --main-font-family: "Roboto", sans-serif;
   --dark-background-color: #00669f;
   --light-background-color: #1cd1b0;
-    --grey-background-color: #888888;
-
+  --grey-background-color: #888888;
 
   --dark-text-color: black;
   --leight-text-color: white;
@@ -21,6 +22,100 @@
 body {
   font-family: var(--main-font-family);
 }
+
+a {
+  text-decoration: none;
+  color: var(--light-background-color)
+}
+
+input,
+select {
+  width: 100%;
+  margin: 10px auto;
+  border: 2px solid black;
+  text-indent: 15px;
+  font-size: 20px;
+  padding: 15px;
+}
+
+
+
+/***********************************
+**
+    ASIDE 
+**
+************************************/
+aside {
+  background-color: var(--light-background-color);
+}
+aside p {
+  font-size: var(--small-font-size);
+  font-weight: 400;
+  padding: 2px 20px;
+}
+
+/***********************************
+  **
+      HEADER
+  **
+  ************************************/
+header {
+  background-color: var(--dark-background-color);
+  position: relative;
+}
+
+header h1 {
+  position: absolute;
+  top: 20px;
+  color: var(--leight-text-color);
+  font-size: var(--medium-font-size);
+  font-weight: 400;
+  margin-left: 120px;
+}
+
+/***********************************
+  **
+      FOOTER
+  **
+  ************************************/
+footer {
+  background-color: var(--dark-background-color);
+}
+
+footer p {
+  color: var(--leight-text-color);
+  font-size: var(--small-font-size);
+  text-align: center;
+  padding: 21px 0;
+}
+
+
+
+/***********************************
+**
+    FORMULARIO
+**
+************************************/
+
+.button {
+  width: 100%;
+  border: 0px;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 15px;
+  margin-top: 50px;
+}
+
+.login {
+  background-color: var(--light-background-color);
+}
+
+.reset {
+  background-color: var(--grey-background-color);
+  color: var(--leight-text-color);
+}
+
 
 div.form {
   margin: 150px auto 150px;
@@ -42,41 +137,7 @@ form {
   opacity: 1; /* Firefox */
 }
 
-input,
-select {
-  width: 100%;
-  margin: 10px auto;
-  border: 2px solid black;
-  text-indent: 15px;
-  font-size: 20px;
-  padding: 15px;
-}
-
-/***********************************
-**
-    FORMULARIO
-**
-************************************/
-
-.button {
-  width: 100%;
-  border: 0px;
-  border-radius: 30px;
-  font-size: 24px;
-  font-weight: 700;
-  padding: 15px;
-  margin-top: 50px;
-}
-
-.login {
-    background-color: var(--light-background-color);
-}
-
-.reset {
-    background-color: var(--grey-background-color);
-    color: var(--leight-text-color)
-}
-
 p.next {
+  margin-top: 20px;
   text-align: center;
 }

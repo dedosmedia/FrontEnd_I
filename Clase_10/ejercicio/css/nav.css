@@ -1,0 +1,36 @@
+/***********************************
+**
+    NAV
+**
+************************************/
+nav {
+    text-align: right;
+    background-color: black;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  
+  main {
+    height: 680px;
+  }
+  
+  div.cards{
+    display: inline-block;
+    margin: 100px auto;
+  }
+  
+  
+  div.card {
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    background-color: cornflowerblue;
+  }

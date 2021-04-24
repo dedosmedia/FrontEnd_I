@@ -1,0 +1,11 @@
+/*
+  PROFES:
+  1. No me gustó centrar veticalmente ese h1 (selector "header h1"), con position absolute.
+  ¿Con las herramientas que conocemos actualmente, había otra manera mejor de hacerlo?
+
+
+  2. En el button submit, no sé porq al presionarlo me sale un borde negro.
+*/
+
+@import url("./common.css");
+@import url("./nav.css");

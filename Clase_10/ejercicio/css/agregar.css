@@ -1,0 +1,35 @@
+
+@import url("./common.css");
+@import url("./nav.css");
+
+
+
+html {
+  color: white;
+}
+
+section {
+  width: 50%;
+  
+  background-color: var(--dark-background-color);
+  border-radius: 30px;
+  margin: 50px auto;
+  padding: 20px 20px;
+}
+
+.subtitulo, .descripcion {
+  text-align: center;
+}
+
+
+div.column {
+  display: inline-block;
+  background-color: yellow;
+  width: 49%;  
+  height: 150px;
+}
+
+input {
+  border-radius: 15px;
+  border: 0px;
+}

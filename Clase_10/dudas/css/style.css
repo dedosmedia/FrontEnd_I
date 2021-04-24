@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.column {
+    width: 50%;
+    height: 450px;
+    display: inline-block;
+}
+
+.left {
+    background-color: lightcoral;
+}
+
+.right {
+    background-color: mediumseagreen;
+}

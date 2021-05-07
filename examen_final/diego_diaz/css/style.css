@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --gray: #222222;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+@media (max-width: 768px){
+    /* aquí las reglas para dispositivos moviles */
+
+
+    /* Cuando se necesite un pseudo-elemento */
+    /*
+        ::before {
+            content: '\';
+            font-family: "Font Awexome Free 5";
+            font-weight: 900;
+        }
+    */
+
+}

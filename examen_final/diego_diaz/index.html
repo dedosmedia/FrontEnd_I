@@ -3,31 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css" integrity="sha512-jQqzj2vHVxA/yCojT8pVZjKGOe9UmoYvnOuM/2sQ110vxiajBU+4WkyRs1ODMmd4AfntwUEV4J+VfM6DkfjLRg==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
     <link rel="stylesheet" href="css/style.css">
     <title>Parcial</title>
 </head>
-<body>
-    
-    <header>
-        <nav>            
-        </nav>
+<body>    
 
+    <!--  HEADER -->
+    <header>
+        <aside class="negro">
+            <p class="ofertas">Grandes ofertas en comederos</p>
+            <div class="idioma">
+                <span>Español</span>
+                <span>ARG$</span>
+            </div>
+        </aside>        
+
+        <div class="menu_principal amarillo">
+            <img src="img/logo-header.png" alt="Logo de FrontCat&Dog">            
+            <nav>   
+                <ul>
+                    <li><a href="#">Categorías</a></li>
+                    <li><a href="#">Pets</a></li>
+                    <li><a href="#">Sobre nosotros</a></li>
+                    <li><a href="#">Contáctenos</a></li>
+                </ul>
+            </nav>
+            <div class="nav-iconos">
+                <a href="#"><i class="fas fa-user"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
+            <div class="hamburguesa"></div>
+        </div>        
     </header>
 
+    <!--  MAIN -->
     <main>
-
         <section>
+            <h1>Contáctanos</h1>
             <form action="#" method="get">
-                <label for="link">Texto para el campo</label>
-                <input type="text" id="link" name="variable"/>
+                
+                <input type="text" id="name" name="name" placeholder="Nombe y Apellido"/>
+                <input type="email" id="email" name="email" placeholder="Ingresá tu correo electrónico"/>
+                <input type="tel" id="tel" name="tel" placeholder="Teléfono"/>
+                <div class="botones">
+                    <input type="reset" id="reset" name="reset" class="boton gris" value="Resetear">
+                    <input type="submit" id="submit" name="submit" class="boton amarillo" value="Enviar">
+                </div>
             </form>
         </section>
-
     </main>
 
+
+    <!--  FOOTER -->
     <footer>
+        <div class="contenedor-contacto">
+            <div class="contacto">
+                <div class="item">
+                    <img src="img/ubic.png">
+                    <div class="detalle">
+                        <p class="detalle">Localidad</p>
+                        <p class="subdetalle">Calle - provincia</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/phone2.png">
+                    <div class="detalle">
+                        <p class="detalle">Teléfono</p>
+                        <p class="subdetalle">Número de tel</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/correo.png">
+                    <div>
+                        <p class="detalle">Correo Electrónico</p>
+                        <p class="subdetalle">Dirección de correo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-redes">
+                <img src="img/logo-footer.png" alt="Logo de FrontCat&Dog">
+                <div class="redes">
+                    <div class="icono youtube"></div>
+                    <div class="icono facebook"></div>
+                    <div class="icono instagram"></div>
+                </div>                
+            </div> 
+
+        </div>
+
+        <div class="derechos">
+            <p>Todos los derechos reservados Front End</p>
+        </div>
 
     </footer>
     
